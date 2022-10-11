@@ -1,0 +1,6 @@
+LOG
+MODE FRxx UART 9600 /dev/ttyUSB0 PARITY
+RX_PASSWORD nok.txt
+DELAY 2000
+RX_PASSWORD ok.txt
+RX_DATA_BLOCK bsl_test.hex
